@@ -1,0 +1,74 @@
+<div *ngIf="employee$ | async as employee">
+
+<h3> Employee Details</h3>
+
+
+<div class="form-group row">
+      <label  class="col-sm-2 col-form-label">Employee Id </label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value={{employee.employeeId}}>
+      </div>
+    </div>
+
+<div class="form-group row">
+      <label  class="col-sm-2 col-form-label">Employee Name </label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value={{employee.employeeName}}>
+      </div>
+    </div>
+
+<div class="form-group row">
+      <label  class="col-sm-2 col-form-label">Employee Designation </label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value={{employee.employeeDesignation}}>
+      </div>
+    </div>
+
+
+   <div class="form-group row">
+      <label  class="col-sm-2 col-form-label">Employee Experience </label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value={{employee.employeeExperience}}>
+      </div>
+    </div>
+
+
+
+
+<div class="form-group row">
+      <label  class="col-sm-2 col-form-label">Employee Address </label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value={{employee.employeeAddress}}>
+      </div>
+    </div>
+
+
+<!-- <div>
+<label>Employee Id : &nbsp;</label>
+<label>{{employee.employeeId}}</label>
+</div>
+
+<div>
+<label>Employee Name : &nbsp;</label>
+<label>{{employee.employeeName}}</label>
+</div>
+
+
+<div>
+<label>Employee Designation : &nbsp;</label>
+<label>{{employee.employeeDesignation}}</label>
+</div>
+
+<div>
+<label>Employee Experience : &nbsp;</label>
+<label>{{employee.employeeExperience}}</label>
+</div>
+
+
+<div>
+<label>Employee Address : &nbsp;</label>
+<label>{{employee.employeeAddress}}</label>
+</div> -->
+
+
+</div>

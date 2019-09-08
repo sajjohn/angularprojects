@@ -1,0 +1,32 @@
+<form (submit)="addEmployee()">
+  <fieldset>
+    <legend>Add Employee</legend>
+    <div class="form-group">
+    	<label>Employee Id</label>
+  	<input [(ngModel)]="employeeId" name="employeeId" style="width: 50%" class="form-control">
+  	</div>
+
+  	
+
+  	<div class="form-group">
+  	<label>Employee Name</label>
+  	<input type="text" [(ngModel)]="employeeName" name="employeeName"  style="width: 50%" class="form-control">
+  </div>
+  <div class="form-group">
+  	<label>Employee Designation</label>
+  	<input type="text" [(ngModel)]="employeeDesignation" name="employeeDesignation" style="width: 50%" class="form-control">
+  </div>
+
+  <div class="form-group">
+  	<label>Employee Experience</label>
+  	<input type="text" [(ngModel)]="employeeExperience" name="employeeExperience" style="width: 50%" class="form-control">
+  </div>
+
+  <div class="form-group">
+  	<label>Employee Address</label>
+  	<input type="text" [(ngModel)]="employeeAddress" name="employeeAddress" style="width: 50%" class="form-control">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</fieldset>
+</form>
