@@ -1,6 +1,19 @@
-# Meanclient
+# MicroServices Consuming Angular UI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3. 
+
+- The project has been created to demonstrate microservices consumption.
+- UI is authenticated using JWT tokens & the token is saved as Cookie & all Backed API's are retrieved using the JWT tokens.
+- Used Angular Ag grid to show out of box features like Pagination, Filtering , Sorting on the list.
+
+
+
+## To Be Implemented in near future.
+
+- Using Reactive forms for validation.
+- Use Modal window for Add/Edit screens.
+- Error Handling for backend errors.
+
 
 ## Development server
 
